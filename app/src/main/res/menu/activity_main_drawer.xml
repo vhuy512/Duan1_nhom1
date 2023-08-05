@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Quản lý nhà" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Quản lý đất" />
+        <item
+            android:id="@+id/nav_donHang"
+            android:title="Đơn Hàng" />
+    </group>
+            <item
+                android:id="@+id/nav_thongkedoanhthu"
+                android:title="Doanh thu" />
+            <item
+                android:id="@+id/nav_top10"
+                android:title="Top 10 tỉnh thành" />
+
+            <item
+                android:id="@+id/nav_thanhvien"
+                android:title="Thành Viên" />
+            <item
+                android:id="@+id/nav_doimatkhau"
+                android:title="Đổi mật khẩu" />
+
+        <item android:title="
+
+
+                    ">
+            <menu>
+            <item
+                android:id="@+id/nav_thoat"
+                android:title="Thoát" />
+            </menu>
+
+        </item>
+
+</menu>
