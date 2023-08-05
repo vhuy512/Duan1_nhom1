@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DangNhapActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/group" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rokkitt"
+        android:text="Đăng nhập"
+        android:textColor="#070707"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/edtUserNameDN"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_backgroud"
+        android:drawableLeft="@drawable/icons_name"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/chakrapetch"
+        android:hint="admin"
+        android:inputType="textPersonName"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="15dp"
+        android:singleLine="false"
+        android:textAlignment="viewStart"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <EditText
+        android:id="@+id/edtPaswordDN"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_backgroud"
+        android:drawableStart="@drawable/icons_password"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/chakrapetch"
+        android:hint="********"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="@+id/edtUserNameDN"
+        app:layout_constraintTop_toBottomOf="@+id/edtUserNameDN" />
+
+    <CheckBox
+        android:id="@+id/chkNho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Nhớ mật khẩu"
+        app:layout_constraintStart_toStartOf="@+id/edtPaswordDN"
+        app:layout_constraintTop_toBottomOf="@+id/edtPaswordDN" />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/custom_buttom_them_nha_dat"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Đăng nhập"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPaswordDN" />
+
+    <TextView
+        android:id="@+id/txtDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Đăng ký"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btnDangNhap"
+        app:layout_constraintTop_toBottomOf="@+id/btnDangNhap" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Your Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUserNameDN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

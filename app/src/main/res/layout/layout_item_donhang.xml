@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/hoa_don"
+    android:padding="10dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/imgHinhND"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/thesinhvien"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMaDonHang"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="50"
+
+        android:textColor="#020202"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@id/imgHinhND"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTenGT"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/chakrapetch"
+        android:paddingRight="15dp"
+        android:text="tenGT"
+        android:textColor="#494747"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/imgHinhND"
+        app:layout_constraintTop_toBottomOf="@id/txtMaDonHang" />
+
+    <TextView
+        android:id="@+id/txtTinhThanh"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="tinh thanh"
+        android:textColor="#040404"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@id/imgHinhND"
+        app:layout_constraintTop_toBottomOf="@id/txtTenGT" />
+
+    <TextView
+        android:id="@+id/txtGiaTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="100.000"
+        android:textColor="#FA0303"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@id/imgHinhND"
+        app:layout_constraintTop_toBottomOf="@id/txtTinhThanh" />
+
+    <TextView
+        android:id="@+id/txtGiaTien2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="$"
+        android:textColor="#FA0303"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/txtGiaTien"
+        app:layout_constraintTop_toBottomOf="@id/txtTinhThanh" />
+
+    <ImageView
+        android:id="@+id/imgSua"
+        android:visibility="visible"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_sua" />
+
+    <TextView
+        android:id="@+id/txtTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTinhThanh" />
+
+    <TextView
+        android:id="@+id/txtNgay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/chakrapetch"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTenGT" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

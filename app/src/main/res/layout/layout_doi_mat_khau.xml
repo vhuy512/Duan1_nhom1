@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DangNhapActivity"
+
+    >
+
+    <ImageView
+        android:id="@+id/imgDMK"
+        android:layout_width="300dp"
+        android:layout_height="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nha" />
+
+    <TextView
+        android:id="@+id/txtNameAppDMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/sacramento"
+        android:text="FPT LAND"
+        android:textColor="#FB0101"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTitleDMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rokkitt"
+        android:text="Đổi mật khẩu"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDMK" />
+
+
+    <EditText
+        android:id="@+id/edtOldPassword"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_backgroud"
+        android:drawableStart="@drawable/icons_password"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/chakrapetch"
+        android:hint="Old Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleDMK" />
+
+    <EditText
+        android:id="@+id/edtNewPassword"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_backgroud"
+        android:drawableStart="@drawable/icons_password"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/chakrapetch"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/edtOldPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtOldPassword" />
+
+    <EditText
+        android:id="@+id/edtConfirmPassW"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_backgroud"
+        android:drawableStart="@drawable/icons_password"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:fontFamily="@font/chakrapetch"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp"
+        android:textAlignment="viewStart"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@+id/edtOldPassword"
+        app:layout_constraintTop_toBottomOf="@+id/edtNewPassword" />
+
+
+    <Button
+        android:id="@+id/btnDMK"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_buttom_them_nha_dat"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Đổi"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtConfirmPassW" />
+
+    <Button
+        android:id="@+id/btnHuyDMK"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_buttom_them_nha_dat"
+        android:fontFamily="@font/chakrapetch"
+        android:text="Hủy"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/btnDMK"
+        app:layout_constraintTop_toBottomOf="@+id/edtConfirmPassW" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

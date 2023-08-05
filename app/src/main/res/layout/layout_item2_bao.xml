@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EAEA">
+
+    <LinearLayout
+        android:layout_marginLeft="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:maxLines="1"
+            android:layout_marginLeft="5dp"
+            android:layout_width="300dp"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:text="Tiêu đề "
+            android:id="@+id/tvTitle"
+            android:fontFamily="@font/font"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_marginLeft="55dp"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/imgAvt"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:maxLines="2"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung "
+        android:textSize="15dp"
+        android:textColor="#252525"
+        android:fontFamily="@font/font2"
+        android:textStyle="normal"
+        android:id="@+id/tvNoidung"
+        />
+<!--    <TextView-->
+<!--        android:id="@+id/tvDateTime"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Ngày tháng"-->
+<!--        android:textSize="12dp"-->
+<!--        android:layout_marginLeft="300dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:textColor="#252525"-->
+<!--        android:textStyle="normal|italic"-->
+<!--        />-->
+
+    <ImageView
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="330dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/heart_icon"
+        android:id="@+id/imglike"/>
+</LinearLayout>
