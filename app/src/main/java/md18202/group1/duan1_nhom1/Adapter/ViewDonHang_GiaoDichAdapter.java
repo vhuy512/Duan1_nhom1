@@ -5,6 +5,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+import md18202.group1.duan1_nhom1.Fragment.DonHangDKTC_Fragment;
+import md18202.group1.duan1_nhom1.Fragment.DonHangFragment;
+import md18202.group1.duan1_nhom1.Fragment.DonHangGiaoDichThanhCongActivityFragment;
+
 public class ViewDonHang_GiaoDichAdapter extends FragmentStateAdapter {
     public ViewDonHang_GiaoDichAdapter(FragmentManager fragmentManager, Lifecycle lifecycle) {
         super(fragmentManager, lifecycle);

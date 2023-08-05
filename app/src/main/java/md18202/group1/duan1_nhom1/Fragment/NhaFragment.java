@@ -35,6 +35,7 @@ import md18202.group1.duan1_nhom1.DAO.NhaDatDAO;
 import md18202.group1.duan1_nhom1.Model.NhaDat;
 import md18202.group1.duan1_nhom1.Model.TinhThanh;
 import md18202.group1.duan1_nhom1.R;
+import md18202.group1.duan1_nhom1.SuaChiTietNhaDatActivity;
 
 
 public class NhaFragment extends Fragment {

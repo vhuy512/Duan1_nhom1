@@ -26,10 +26,13 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.Adapter.DonHangAdapter;
-import huylvph30524.fpoly.duan01_nhom01.DAO.DonHangDAO;
-import huylvph30524.fpoly.duan01_nhom01.DAO.NhaDatDAO;
-import huylvph30524.fpoly.duan01_nhom01.Model.DonHang;
+import md18202.group1.duan1_nhom1.Adapter.DonHangAdapter;
+import md18202.group1.duan1_nhom1.DAO.DonHangDAO;
+import md18202.group1.duan1_nhom1.DAO.NhaDatDAO;
+import md18202.group1.duan1_nhom1.DonHangChiTietActivity;
+import md18202.group1.duan1_nhom1.Model.DonHang;
+import md18202.group1.duan1_nhom1.R;
+
 
 public class DonHangDKTC_Fragment extends Fragment {
     List<DonHang> donHangList = new ArrayList<>();

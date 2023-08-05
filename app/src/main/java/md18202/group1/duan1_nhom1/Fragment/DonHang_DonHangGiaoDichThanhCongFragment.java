@@ -13,7 +13,8 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import huylvph30524.fpoly.duan01_nhom01.Adapter.ViewDonHang_GiaoDichAdapter;
+import md18202.group1.duan1_nhom1.Adapter.ViewDonHang_GiaoDichAdapter;
+import md18202.group1.duan1_nhom1.R;
 
 
 public class DonHang_DonHangGiaoDichThanhCongFragment extends Fragment {

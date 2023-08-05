@@ -14,8 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import huylvph30524.fpoly.duan01_nhom01.DAO.ThanhvienDao;
-import huylvph30524.fpoly.duan01_nhom01.Model.Thanhvien;
+import md18202.group1.duan1_nhom1.DAO.ThanhvienDao;
+import md18202.group1.duan1_nhom1.DangNhapActivity;
+import md18202.group1.duan1_nhom1.Model.Thanhvien;
 import md18202.group1.duan1_nhom1.R;
 
 
@@ -109,7 +110,7 @@ public class DoiMatKhauFragment extends Fragment {
                     ThanhvienDao dao = new ThanhvienDao(getContext());
                     dao.updateMK(thanhvien);
                     Toast.makeText(getContext(), "Đổi mật khẩu thành công", Toast.LENGTH_SHORT).show();
-                    Intent intent1=new Intent(getContext(),DangNhapActivity.class);
+                    Intent intent1=new Intent(getContext(), DangNhapActivity.class);
                     startActivity(intent1);
                 }
             }

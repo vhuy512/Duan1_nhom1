@@ -20,6 +20,7 @@ import java.util.List;
 
 import md18202.group1.duan1_nhom1.Adapter.NhaDatAdapter;
 import md18202.group1.duan1_nhom1.Adapter.TinhThanhSpinnerAdapter;
+import md18202.group1.duan1_nhom1.ChiTietNhaDatActivity;
 import md18202.group1.duan1_nhom1.DAO.NhaDatDAO;
 import md18202.group1.duan1_nhom1.Model.NhaDat;
 import md18202.group1.duan1_nhom1.Model.TinhThanh;
