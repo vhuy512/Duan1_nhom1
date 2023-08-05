@@ -15,8 +15,8 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.Model.NhaDat;
-import huylvph30524.fpoly.duan01_nhom01.R;
+import md18202.group1.duan1_nhom1.Model.NhaDat;
+import md18202.group1.duan1_nhom1.R;
 
 public class NhaDatAdapter extends BaseAdapter {
     Context context;

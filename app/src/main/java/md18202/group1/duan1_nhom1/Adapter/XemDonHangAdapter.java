@@ -12,9 +12,10 @@ import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.DonHangNguoiDungFragment;
-import huylvph30524.fpoly.duan01_nhom01.Model.DonHang;
-import huylvph30524.fpoly.duan01_nhom01.R;
+import md18202.group1.duan1_nhom1.Fragment.DonHangNguoiDungFragment;
+import md18202.group1.duan1_nhom1.Model.DonHang;
+import md18202.group1.duan1_nhom1.R;
+
 
 public class XemDonHangAdapter extends BaseAdapter {
     DonHangNguoiDungFragment donHangNguoiDungFragment;

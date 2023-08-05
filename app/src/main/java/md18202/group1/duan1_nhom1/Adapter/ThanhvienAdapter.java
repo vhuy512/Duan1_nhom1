@@ -8,8 +8,9 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.Model.Thanhvien;
-import huylvph30524.fpoly.duan01_nhom01.R;
+import md18202.group1.duan1_nhom1.Model.Thanhvien;
+import md18202.group1.duan1_nhom1.R;
+
 
 public class ThanhvienAdapter extends BaseAdapter {
     Context context;

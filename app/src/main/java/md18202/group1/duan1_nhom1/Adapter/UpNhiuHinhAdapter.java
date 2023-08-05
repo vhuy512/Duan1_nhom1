@@ -20,11 +20,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
-import huylvph30524.fpoly.duan01_nhom01.DAO.HinhDAO;
-import huylvph30524.fpoly.duan01_nhom01.DAO.NhaDatDAO;
-import huylvph30524.fpoly.duan01_nhom01.Model.Hinh;
-import huylvph30524.fpoly.duan01_nhom01.Model.NhaDat;
-import huylvph30524.fpoly.duan01_nhom01.R;
+import md18202.group1.duan1_nhom1.DAO.HinhDAO;
+import md18202.group1.duan1_nhom1.DAO.NhaDatDAO;
+import md18202.group1.duan1_nhom1.Model.Hinh;
+import md18202.group1.duan1_nhom1.Model.NhaDat;
+import md18202.group1.duan1_nhom1.R;
+
 
 public class UpNhiuHinhAdapter extends RecyclerView.Adapter<UpNhiuHinhAdapter.HinhViewHolder>{
     Context context;

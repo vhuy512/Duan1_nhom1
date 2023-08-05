@@ -16,7 +16,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import md18202.group1.duan1_nhom1.Adapter.PhotoAdapter;
 import md18202.group1.duan1_nhom1.Model.Photo;
+import me.relex.circleindicator.CircleIndicator3;
 
 public class ChaoActivity extends AppCompatActivity {
 

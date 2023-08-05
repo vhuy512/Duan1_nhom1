@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.Model.Top;
-import huylvph30524.fpoly.duan01_nhom01.R;
+import md18202.group1.duan1_nhom1.Model.Top;
+import md18202.group1.duan1_nhom1.R;
 
 public class ThongKeTop10Adapter extends BaseAdapter {
     Context context;

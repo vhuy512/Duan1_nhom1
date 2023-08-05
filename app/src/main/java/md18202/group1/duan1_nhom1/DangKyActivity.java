@@ -13,8 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Calendar;
 import java.util.Random;
 
-import huylvph30524.fpoly.duan01_nhom01.DAO.ThanhvienDao;
-import huylvph30524.fpoly.duan01_nhom01.Model.Thanhvien;
+import md18202.group1.duan1_nhom1.DAO.ThanhvienDao;
+import md18202.group1.duan1_nhom1.Model.Thanhvien;
+
 
 public class DangKyActivity extends AppCompatActivity {
 

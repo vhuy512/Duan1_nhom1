@@ -11,8 +11,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.Database.Database;
-import huylvph30524.fpoly.duan01_nhom01.Model.NhaDat;
+import md18202.group1.duan1_nhom1.Database.Database;
+import md18202.group1.duan1_nhom1.Model.NhaDat;
+
 
 public class NhaDatDAO implements INhaDatDAO{
     Database mydatabase;

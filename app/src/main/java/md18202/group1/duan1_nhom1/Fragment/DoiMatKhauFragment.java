@@ -1,4 +1,4 @@
-package md18202.group1.duan1_nhom1;
+package md18202.group1.duan1_nhom1.Fragment;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,8 +14,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import md18202.group1.duan1_nhom1.DAO.ThanhvienDao;
-import md18202.group1.duan1_nhom1.Model.Thanhvien;
+import huylvph30524.fpoly.duan01_nhom01.DAO.ThanhvienDao;
+import huylvph30524.fpoly.duan01_nhom01.Model.Thanhvien;
+import md18202.group1.duan1_nhom1.R;
 
 
 public class DoiMatKhauFragment extends Fragment {

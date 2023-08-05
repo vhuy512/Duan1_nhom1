@@ -11,8 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.text.SimpleDateFormat;
 
-import huylvph30524.fpoly.duan01_nhom01.DAO.DonHangDAO;
-import huylvph30524.fpoly.duan01_nhom01.Model.DonHang;
+import md18202.group1.duan1_nhom1.DAO.DonHangDAO;
+import md18202.group1.duan1_nhom1.Model.DonHang;
+
 
 public class DonHangChiTietActivity extends AppCompatActivity {
     TextView txtTenGTNhaDat,txtDiaChi,txtTien,txtMaTVMuaHang,txtSDTKhachHang, txtNgayMua;

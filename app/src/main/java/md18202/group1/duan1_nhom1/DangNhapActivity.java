@@ -12,8 +12,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import huylvph30524.fpoly.duan01_nhom01.DAO.ThanhvienDao;
-import huylvph30524.fpoly.duan01_nhom01.Model.Thanhvien;
+import md18202.group1.duan1_nhom1.DAO.ThanhvienDao;
+import md18202.group1.duan1_nhom1.Model.Thanhvien;
 
 
 public class DangNhapActivity extends AppCompatActivity {

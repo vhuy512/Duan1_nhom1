@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-import huylvph30524.fpoly.duan01_nhom01.Database.Database;
-import huylvph30524.fpoly.duan01_nhom01.Model.Thanhvien;
+import md18202.group1.duan1_nhom1.Database.Database;
+import md18202.group1.duan1_nhom1.Model.Thanhvien;
 
 public class ThanhvienDao implements IThanhVienDAO {
     Database myDatabase;
